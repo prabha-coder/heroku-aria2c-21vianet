@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
 	res.send(`
 <title>404 not found</title>
 <label for="secret">Secret:</label>
-<input id="secret" type="text">
+<input id="secret" type="password">
 <button id="panel">Go to panel</button>
 <button id="downloads">View downloaded files</button><br>
 Partial Copyright © <a href="https://qxin.info">xinxin8816</a>.
